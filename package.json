@@ -1,0 +1,9 @@
+{
+  "name": "central-homes-roof-measurement-core",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "stress": "node --experimental-strip-types bench/stress.ts"
+  }
+}
