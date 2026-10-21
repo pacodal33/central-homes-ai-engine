@@ -1,0 +1,42 @@
+{
+  "address": "4060 Bermuda Grove Pl, Longwood, FL 32779",
+  "runStatus": "needs_review",
+  "sourceNotes": [
+    {
+      "source": "Google Solar",
+      "imageryDate": "2021-11-30",
+      "modeledRoofSegments": 14,
+      "role": "model pitch/area cross-check; not a lineal edge source"
+    },
+    {
+      "source": "Seminole County Appraiser aerial",
+      "imageryDate": "2025",
+      "role": "human-reviewed imagery and screen-ruler candidate spans"
+    },
+    {
+      "source": "Realtor.com permit history",
+      "permitDate": "2024-02-23",
+      "permitType": "Residential roofing",
+      "role": "secondary-source date lead; underlying permit/plans not retrieved"
+    }
+  ],
+  "candidateIntersectionSpans": [
+    {
+      "id": "county-span-a",
+      "planLengthFt": 16.1,
+      "classification": "unknown",
+      "true3dLengthFt": null,
+      "confidence": 25,
+      "reason": "visible roof intersection trace; hip versus valley is unresolved"
+    },
+    {
+      "id": "county-span-b",
+      "planLengthFt": 7.71,
+      "classification": "unknown",
+      "true3dLengthFt": null,
+      "confidence": 25,
+      "reason": "adjacent span near same junction; may overlap span A"
+    }
+  ],
+  "releaseAllowed": false
+}
