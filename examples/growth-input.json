@@ -1,0 +1,7 @@
+{
+  "asOf": "2026-11-05",
+  "settings": {"currentRevenue": 1000000, "currentNetRate": 0.06, "variableCostRate": 0.69, "projectedRevenue": 800000, "targetNetRate": 0.06, "targetContributionRate": 0.2},
+  "jobs": [{"id":"DEMO-001","customerName":"Example Customer","email":"customer@example.invalid","owner":"Example Rep","status":"estimate_sent","estimateDate":"2026-10-01","lastContactDate":"2026-10-10","estimateAmount":15000,"directCosts":10000,"commissions":1500,"marketingCost":900,"source":"Example campaign","lostReason":"Timing","doNotContact":false}],
+  "marketing": [{"period":"2026-09","source":"Example campaign","jobType":"blended","spend":9000,"leads":40,"soldJobs":10,"revenue":120000,"directCosts":80000,"commissions":12000,"basis":"September lead cohort, updated November 5"}],
+  "savings": [{"id":"DEMO-S1","description":"Example expense reduction","annualAmount":20000,"effectiveDate":"2026-11-01","status":"planned"}]
+}

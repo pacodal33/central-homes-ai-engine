@@ -1,6 +1,12 @@
 # Central Homes AI Engine
 
-JobNimbus remains the system of record. This private repository is for background roof measurement and permit-preparation automation, not a replacement CRM.
+JobNimbus remains the system of record. This repository contains background integration foundations and an export-based business analysis toolkit, not a replacement CRM. The repository is currently public: never commit customer exports, financial records or credentials.
+
+## Growth bots
+
+Open `growth-bots.html` to analyze imported JSON/CSV exports locally, or run `npm run bots -- private/input.json reports/findings.json`. Four bots prioritize follow-up drafts, compare marketing economics, flag low-contribution jobs and project overhead savings. Run `npm test` to verify calculations. No dependencies are required.
+
+See [growth bot input and operating guide](docs/GROWTH_BOTS.md). JobNimbus is not connected; there is no unattended execution or outbound messaging in this release.
 
 ## Phase 1: read-only integration
 - Find a JobNimbus job by address.
